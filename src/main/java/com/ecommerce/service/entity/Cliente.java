@@ -10,10 +10,8 @@ public class Cliente {
     @Column(length = 100)
     private String nombres;
     @Column(length = 100)
-    private String apellidoPaterno;
+    private String apellidos;
     @Column(length = 100)
-    private String apellidoMaterno;
-    @Column(length = 20)
     private String tipoDoc;
     @Column(length = 11)
     private String numDoc;
@@ -22,10 +20,8 @@ public class Cliente {
     @Column(length = 100)
     private String departamento;
     @Column(length = 100)
-    private String provincia;
+    private String ciudad;
     @Column(length = 100)
-    private String distrito;
-    @Column(length = 9)
     private String telefono;
     @OneToOne
     private DocumentoAlmacenado foto;
@@ -79,19 +75,11 @@ public class Cliente {
     }
 
     public String getProvincia() {
-        return provincia;
+        return ciudad;
     }
 
     public void setProvincia(String provincia) {
-        this.provincia = provincia;
-    }
-
-    public String getDistrito() {
-        return distrito;
-    }
-
-    public void setDistrito(String distrito) {
-        this.distrito = distrito;
+        this.ciudad = provincia;
     }
 
     public DocumentoAlmacenado getFoto() {
@@ -102,20 +90,12 @@ public class Cliente {
         this.foto = foto;
     }
 
-    public String getApellidoPaterno() {
-        return apellidoPaterno;
+    public String getApellidos() {
+        return apellidos;
     }
 
-    public void setApellidoPaterno(String apellidoPaterno) {
-        this.apellidoPaterno = apellidoPaterno;
-    }
-
-    public String getApellidoMaterno() {
-        return apellidoMaterno;
-    }
-
-    public void setApellidoMaterno(String apellidoMaterno) {
-        this.apellidoMaterno = apellidoMaterno;
+    public void setApellidos(String apellidoMaterno) {
+        this.apellidos = apellidoMaterno;
     }
 
     public String getTelefono() {
@@ -127,7 +107,7 @@ public class Cliente {
     }
 
     public String getNombreCompletoCiente(){
-        return this.nombres != null && this.apellidoPaterno != null && this.apellidoMaterno != null ?
-            this.nombres + " " + this.apellidoPaterno + " " + this.apellidoMaterno: "-----";
+        return this.nombres != null && this.apellidos != null ?
+            this.nombres + " " + this.apellidos: "-----";
     }
 }
