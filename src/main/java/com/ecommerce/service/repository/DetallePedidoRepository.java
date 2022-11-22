@@ -1,6 +1,6 @@
 package com.ecommerce.service.repository;
 
-import com.alexandertutoriales.ecommerce.service.entity.DetallePedido;
+import com.ecommerce.service.entity.DetallePedido;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

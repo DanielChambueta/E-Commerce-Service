@@ -1,7 +1,7 @@
 package com.ecommerce.service.service;
 
-import com.alexandertutoriales.ecommerce.service.entity.DetallePedido;
-import com.alexandertutoriales.ecommerce.service.repository.DetallePedidoRepository;
+import com.ecommerce.service.entity.DetallePedido;
+import com.ecommerce.service.repository.DetallePedidoRepository;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;

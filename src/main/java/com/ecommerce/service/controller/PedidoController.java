@@ -1,7 +1,7 @@
 package com.ecommerce.service.controller;
 
-import com.alexandertutoriales.ecommerce.service.service.PedidoService;
-import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
+import com.ecommerce.service.service.PedidoService;
+import com.ecommerce.service.utils.GenericResponse;
 import com.ecommerce.service.entity.dto.GenerarPedidoDTO;
 import com.ecommerce.service.entity.dto.PedidoConDetallesDTO;
 

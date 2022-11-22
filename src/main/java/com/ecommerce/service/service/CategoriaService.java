@@ -1,12 +1,13 @@
 package com.ecommerce.service.service;
 
-import com.alexandertutoriales.ecommerce.service.repository.CategoriaRepository;
-import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
+import com.ecommerce.service.repository.CategoriaRepository;
+import com.ecommerce.service.utils.GenericResponse;
+
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 
-import static com.alexandertutoriales.ecommerce.service.utlis.Global.*;
+import static com.ecommerce.service.utils.Global.*;
 
 @Service
 @Transactional

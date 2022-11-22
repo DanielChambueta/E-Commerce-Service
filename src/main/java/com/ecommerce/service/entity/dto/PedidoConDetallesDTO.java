@@ -1,7 +1,7 @@
 package com.ecommerce.service.entity.dto;
 
-import com.alexandertutoriales.ecommerce.service.entity.DetallePedido;
-import com.alexandertutoriales.ecommerce.service.entity.Pedido;
+import com.ecommerce.service.entity.DetallePedido;
+import com.ecommerce.service.entity.Pedido;
 
 import java.util.ArrayList;
 

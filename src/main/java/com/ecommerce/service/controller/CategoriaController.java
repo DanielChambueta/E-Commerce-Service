@@ -1,7 +1,7 @@
 package com.ecommerce.service.controller;
 
 import com.ecommerce.service.service.CategoriaService;
-import com.ecommerce.service.utlis.GenericResponse;
+import com.ecommerce.service.utils.GenericResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

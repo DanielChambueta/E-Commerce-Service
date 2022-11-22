@@ -1,7 +1,7 @@
 package com.ecommerce.service.controller;
 
-import com.alexandertutoriales.ecommerce.service.service.PlatilloService;
-import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
+import com.ecommerce.service.service.PlatilloService;
+import com.ecommerce.service.utils.GenericResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,13 +1,13 @@
 package com.ecommerce.service.service;
 
-import com.alexandertutoriales.ecommerce.service.entity.DetallePedido;
-import com.alexandertutoriales.ecommerce.service.entity.Pedido;
-import com.alexandertutoriales.ecommerce.service.entity.dto.GenerarPedidoDTO;
-import com.alexandertutoriales.ecommerce.service.entity.dto.PedidoConDetallesDTO;
-import com.alexandertutoriales.ecommerce.service.repository.DetallePedidoRepository;
-import com.alexandertutoriales.ecommerce.service.repository.PedidoRepository;
-import com.alexandertutoriales.ecommerce.service.repository.PlatilloRepository;
-import com.alexandertutoriales.ecommerce.service.utlis.GenericResponse;
+import com.ecommerce.service.entity.DetallePedido;
+import com.ecommerce.service.entity.Pedido;
+import com.ecommerce.service.entity.dto.GenerarPedidoDTO;
+import com.ecommerce.service.entity.dto.PedidoConDetallesDTO;
+import com.ecommerce.service.repository.DetallePedidoRepository;
+import com.ecommerce.service.repository.PedidoRepository;
+import com.ecommerce.service.repository.PlatilloRepository;
+import com.ecommerce.service.utils.GenericResponse;
 import java.io.File;
 import java.io.FileInputStream;
 import java.text.SimpleDateFormat;
@@ -35,7 +35,7 @@ import java.util.Date;
 import java.util.List;
 import org.springframework.util.ResourceUtils;
 
-import static com.alexandertutoriales.ecommerce.service.utlis.Global.*;
+import static com.ecommerce.service.utils.Global.*;
 
 @Service
 @Transactional
