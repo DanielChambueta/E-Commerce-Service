@@ -66,17 +66,17 @@
 				<imageExpression><![CDATA[$P{imgLogo}]]></imageExpression>
 			</image>
 			<staticText>
-				<reportElement x="300" y="0" width="240" height="30" uuid="4138d179-6985-4753-8927-b10dccfde000"/>
+				<reportElement x="320" y="0" width="210" height="30" uuid="4138d179-6985-4753-8927-b10dccfde000"/>
 				<textElement>
 					<font size="20" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Reposteria Panquesitos]]></text>
+				<text><![CDATA[Cevichería Alexander]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="360" y="40" width="195" height="30" uuid="c0384066-4019-4d7c-a167-e19d39b8abb5">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<text><![CDATA[Carrera 7 #4-05, Zipa Cundinamarca]]></text>
+				<text><![CDATA[Prol. Sucre 903 U.V "Casimiro Chuman" Ferreñafe, Ferreñafe, Lambayeque - 14311]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="305" y="40" width="50" height="14" uuid="0ad22c7e-edd0-4be5-b06c-cfc043acfae0">
@@ -100,7 +100,7 @@
 				<reportElement x="360" y="80" width="64" height="14" uuid="4b84decf-0ef9-4882-a75e-7f222e864457">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<text><![CDATA[10101003]]></text>
+				<text><![CDATA[10780197787]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="305" y="100" width="50" height="14" uuid="8fecde8e-4877-4a76-b179-63ef1917b8ed">
@@ -115,7 +115,7 @@
 				<reportElement x="360" y="100" width="64" height="14" uuid="82d31928-4be6-4efb-a437-76989399306c">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<text><![CDATA[333 333 3333]]></text>
+				<text><![CDATA[917967148]]></text>
 			</staticText>
 		</band>
 	</title>
@@ -271,14 +271,14 @@
 				<text><![CDATA[Por favor, realice pagos a:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="0" y="40" width="135" height="14" uuid="c7652ba1-24fb-4a11-84f6-2f3661056410">
+				<reportElement x="0" y="40" width="100" height="14" uuid="c7652ba1-24fb-4a11-84f6-2f3661056410">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<text><![CDATA[Reposteria Panquesitos]]></text>
+				<text><![CDATA[Alexander Tutoriales]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="60" width="135" height="30" uuid="b79be136-ab77-4937-983b-c79992c7f491"/>
-				<text><![CDATA[Nº Cuenta: 5112354 - Bancolombia]]></text>
+				<text><![CDATA[Nº Cuenta: 03456793922 - Banco de la Nación]]></text>
 			</staticText>
 		</band>
 	</detail>
@@ -300,7 +300,7 @@
 			<staticText>
 				<reportElement x="1" y="17" width="320" height="42" uuid="7e468512-b732-4e8f-91a0-4c09260241b6"/>
 				<textElement textAlignment="Justified"/>
-				<text><![CDATA[Recomendamos ir a nuestras tiendas fisicas para que disfrute de ambientes maravillosos mientras pasa un agradable rato.]]></text>
+				<text><![CDATA[Atencion: Esta es una representación grafica de un pedido ordenado del aplicativo Cevichería Alexander. Para más información visite el siguiente enlace: https://www.cevicheríaalexander.com.pe]]></text>
 			</staticText>
 		</band>
 	</pageFooter>
